@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -28,8 +27,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
+* {
+    box-sizing:border-box;
+    line-height: 1;
+    max-width:100%;
 }
 ol, ul {
 	list-style: none;
@@ -50,58 +51,79 @@ table {
 body{
     font-family: "Roboto Mono";
     text-align:center;
+    margin:1rem;
+    max-width:100%;
   }
   
-  button{
-    border-radius:2rem;
-    padding: 1rem;
-    margin:2rem;
-    border:none;
-    color:white;
+  .button{
+      display:inline-block;
   }
   
   #plan{
     background-color:#ff764e;
+    border-radius:1.2rem;
+    padding:2%;
+    margin:5%;
+    border:none;
+    color:white;
   }
   
   #learn{
     background-color:#5ed3eb;
+    border-radius:1.2rem;
+    padding:2%;
+    margin:5%;
+    border:none;
+    color:white;
   }
   
   #involved{
     background-color:#ffcd69;
+    border-radius:1.2rem;
+    padding:2%;
+    margin:5%;
+    border:none;
+    color:white;
+
   }
-  
-  #head{
+  .container{
+      display:inline-block;
+      margin:5rem;
+  }
+  .head img{
     float:left;
-    margin-left:4rem;
-    margin-right:auto;
-    width:11rem;
-    height:7rem;
+    max-width:30%;
     border-radius:50%;
-    display:block
+    block-size: 50% 
   }
-  .heading h1 p{
-    display:block;
-    margin:4rem;
+
+  .little_container,h1,p{
+    display:inline-block;
+    width:50%;
     padding:3rem;
   }
-  
+ 
   h1{
     font-family:"Chelsea Market";
     font-size:3rem;
     padding:2rem;
+    
   }
   
   .info{
     background-color:#ddb9a3;
     color:white;
     padding:1rem;
-    margin:2rem;
-    text-align:centered;
+    text-align:center;
   }
   
-  p2{
+  .warnings img{
+      block-size:20rem;
+      box-align:center;
+      margin:3rem
+  }
+
+  p2 {
     font-weight:bold;
   }
   
