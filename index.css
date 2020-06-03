@@ -47,7 +47,20 @@ table {
 	border-spacing: 0;
 }
 
-#plan{
+body{
+    font-family: "Roboto Mono";
+    text-align:center;
+  }
+  
+  button{
+    border-radius:2rem;
+    padding: 1rem;
+    margin:2rem;
+    border:none;
+    color:white;
+  }
+  
+  #plan{
     background-color:#ff764e;
   }
   
@@ -57,4 +70,41 @@ table {
   
   #involved{
     background-color:#ffcd69;
+  }
+  
+  #head{
+    float:left;
+    margin-left:4rem;
+    margin-right:auto;
+    width:11rem;
+    height:7rem;
+    border-radius:50%;
+    display:block
+  }
+  .heading h1 p{
+    display:block;
+    margin:4rem;
+    padding:3rem;
+  }
+  
+  h1{
+    font-family:"Chelsea Market";
+    font-size:3rem;
+    padding:2rem;
+  }
+  
+  .info{
+    background-color:#ddb9a3;
+    color:white;
+    padding:1rem;
+    margin:2rem;
+    text-align:centered;
+  }
+  
+  p2{
+    font-weight:bold;
+  }
+  
+  footer{
+    background-color:#f9e7dc;
   }
