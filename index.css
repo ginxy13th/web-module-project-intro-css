@@ -130,3 +130,8 @@ body{
   footer{
     background-color:#f9e7dc;
   }
+
+  .foot-container img{
+      max-width:100%;
+      block-size:50%;
+  }
